@@ -13,9 +13,12 @@ The Sample data sources are given below:
 http://www.investopedia.com/terms/y/yieldcurve.asp?lgl=dpmf-myfinance
 https://derivativelogic.com/dl-report/understanding-the-yield-curve-what-youve-always-wanted-to-know-but-were-afraid-to-ask
 
-### What are Derivatives : http://www.yieldcurve.com/Mktresearch/LearningCurve/Derivatives_Intro.pdf
+### What are Derivatives : 
+http://www.yieldcurve.com/Mktresearch/LearningCurve/Derivatives_Intro.pdf
 
-### A Statistical Machine Learning Approach to Yield Curve Forecasting : https://arxiv.org/pdf/1703.01536.pdf
+### A Statistical Machine Learning Approach to Yield Curve Forecasting : 
+https://arxiv.org/pdf/1703.01536.pdf
 
-### Bond Yield Curve Holds Predictive Powers :http://www.investopedia.com/articles/economics/08/yield-curve.asp?lgl=dpmf-myfinance
+### Bond Yield Curve Holds Predictive Powers :
+http://www.investopedia.com/articles/economics/08/yield-curve.asp?lgl=dpmf-myfinance
 
