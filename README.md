@@ -16,6 +16,9 @@ https://derivativelogic.com/dl-report/understanding-the-yield-curve-what-youve-a
 ### What are Derivatives : 
 http://www.yieldcurve.com/Mktresearch/LearningCurve/Derivatives_Intro.pdf
 
+### Modelling Yield Curves:
+http://www-stat.wharton.upenn.edu/~stine/research/penn_fin_club.pdf
+
 ### A Statistical Machine Learning Approach to Yield Curve Forecasting : 
 https://arxiv.org/pdf/1703.01536.pdf
 
