@@ -4,7 +4,7 @@
 2. Day 
 3. Month
 4. Business Quarter
-5. Window function avg(t-2, t-1), t+1
+5. Window function avg(t-2, t-1), t+1 - Feels sloppy for those points on NA rates
 
 ## Time serie analysis related features
 
