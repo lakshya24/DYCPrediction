@@ -14,6 +14,10 @@
 4. Param of MA
 5. Read paper https://edux.fit.cvut.cz/oppa/MI-PDD/prednasky/l8-signal-extraction.pdf
 
+## Decent thesis on dealing with missing values in time series
+
+1. http://ro.ecu.edu.au/cgi/viewcontent.cgi?article=1063&context=theses
+
 ## Frequency features
 
 1. Read paper https://edux.fit.cvut.cz/oppa/MI-PDD/prednasky/l8-signal-extraction.pdf
