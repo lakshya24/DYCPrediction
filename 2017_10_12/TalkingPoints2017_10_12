@@ -1,0 +1,14 @@
+Dataset : FRB H 15	
+From Viz: Missing weekend and public holidays data
+added features: Is weekend,rolling window avg, rolling window avg diff, smoothen data
+Missing : interaction features - O/P of RF
+Imputation: impute prev values for closed market dates - needs revisit
+Methods: ARMA,RFR ,RFR with AR and MA features(pending), Reading MCMC methods using Bayesian inference and Gibbs sampling.
+Question:
+1) Should we really look at very old data
+2) What is the objective RMSE
+3) Will the input asset be differenct (currently only bonds)
+4) What is weekend/public holiday imputation as - in light of effect of OTC market,is this a good assumption
+5) What is the input and output - exact deliverable
+6) Frequency features - what is that?
+7) Year specific features ex. 1/3/6 months missing %age pre 2000
