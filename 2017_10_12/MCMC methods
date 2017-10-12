@@ -1,0 +1,21 @@
+In the book “Analysis of Financial Time Series,” Ruey S. Tsay mentions a method to fill missing values in a time series 
+as an application of MCMC. Markov Chain Monte Carlo (MCMC) methods are widely used in time series analysis as the 
+computing facilities advance in recent years. In the literature, missing values in a time series can be handled by 
+Bayesian inference via Gibbs sampling. Specifically, we treat the missing value Xh as an unknown parameter, and we 
+model the time series as AR of order p. Then assume the prior distribution of Xh follows normal, the prior distribution 
+of φ （coefficients of AR model） follows multivariate normal , and the prior of ( vλ / σ² ) follows chi-squared 
+distribution with v degrees of freedom, where σ² is the variance of the innovation term at and v and λ are 
+hyperparameters. 
+
+With the three prior distributions defined above and the AR (p) model, we can derive three conditional posterior normal 
+distributions (including their mean and variance) of the model coefficients and the missing value: f(φ|X, Xh, σ²) ; 
+f(σ² |X, Xh ,φ); f(Xh |X, σ², φ), where X denotes the observed data. Using these three conditional posterior distributions, 
+we can estimate the coefficients of AR(p) model and the missing value Xh at the same time using Gibbs sampling with thousands of iterations.
+If missing values occur consecutively, this method can also be used to estimate them. 
+
+However, this method is hard to implement. First, the values of hyperparameters (including the mean and covariance 
+matrix of the prior distribution of φ), and the starting values of Gibbs Sampling are hard to determine, and they might
+lead to very different estimates. Second, if we want to use more complex models than the AR (p) model, it might be hard 
+to derive the conditional posterior distributions. Third, this method might not perform as good as the machine learning 
+models that we have tried, as it only focuses on a single time series and ignores many other features in our machine 
+learning models. 
